@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+    <title>Pokédex</title>
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" alt="Pokedex Logo">
+        <nav>
+            <button class="fire-button" onclick="fetchPokemonByType('fire')">Fire</button>
+            <button class="water-button" onclick="fetchPokemonByType('water')">Water</button>
+            <button class="grass-button" onclick="fetchPokemonByType('grass')">Grass</button>
+            <button class="electric-button" onclick="fetchPokemonByType('electric')">Electric</button>
+            <button class="psychic-button" onclick="fetchPokemonByType('psychic')">Psychic</button>
+            <button class="ghost-button" onclick="fetchPokemonByType('ghost')">Ghost</button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Select a Pokémon type to view its details!</p>
+        </section>
+    </main>
+</body>
+</html>
